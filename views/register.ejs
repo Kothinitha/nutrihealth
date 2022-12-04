@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Registration </title>
+<link rel="stylesheet" type="text/css" href="register.css">
+</head>
+
+<style>
+
+     
+    input[type=text],[type=password],[type=number]{
+    width: 20%;
+    margin: 8px 0;
+    padding: 7px 10px;
+    display: inline-block;
+    border:1px solid rgb(24, 20, 20);
+    box-sizing: border-box;
+    }
+     
+    button{
+    background-color:#d3dcd3;
+    width: 10%;
+    padding: 9px 5px;
+    margin:5px 0;
+    cursor:pointer;
+    border:none;
+    color:#1d1b1b;
+    margin-left: 80px;
+    }
+     
+    button:hover{
+    opacity:0.8;
+    }
+     
+    #fn,#ln,#un,#pwd,#em,#mn,#fm,#cy{
+    font-family:'Lato', sans-serif;
+    color: rgb(12, 11, 11);
+    }
+     
+    #em{
+    margin-left:30px;
+    }
+
+
+</style>
+ 
+<body align="center" style="background-image: url(https://img.freepik.com/premium-photo/top-view-frame-organic-vegetables_136595-17727.jpg);background-size: cover;">
+ 
+<form method="GET" action="/registersubmit">
+<h1>   Registration </h1>
+ 
+<label for="r1" id="fn"><b>First Name :</b></label>
+<input type="text" name="fname" id="r1"><br/>
+ 
+<label  for="r2" id="ln"><b>Last Name :</b></label><B>
+<input type="text" name="lname" id="r2"><br/>
+ 
+<label  for="r3" id="un"><b>Username :</b></label>
+<input type="text" name="uname" id="r3"><br/>
+ 
+<label  for="r4" id="pwd"><b>Password :</b></label>
+<input type="password" name="pass" id="r4"><br/>
+
+<label  for="r6" id="em"><b>Email :</b></label>
+<input type="text" name="email" id="r"><br/>
+ 
+<label  for="r7" id="mn"><b>Mobile No :</b></label>
+<input type="text" name="mno" id="r7"><br/>
+ 
+<br/><br/>
+ 
+<button type="submit" value="Submit" id="button">Register</button>
+<a href="http://localhost:3000/">Back to Home</a>
+ 
+</form>
+ 
+
+ 
+</body>
+</html>
